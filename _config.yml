@@ -1,3 +1,5 @@
+gem install just-the-docs
+
 description: A site built with Just the Docs theme
 exclude:
 - vendor
