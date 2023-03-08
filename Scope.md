@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Compliance Checklist - Gas Station Compliance App
 ---
 
 <main>
