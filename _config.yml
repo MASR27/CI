@@ -1,14 +1,20 @@
+# Site title and description
 title: My Site
 description: A site built with Just the Docs theme
 
-# Set the theme to Just the Docs
-remote_theme: pmarsceill/just-the-docs
-
-# Configure the site settings
+# Site URL and base URL
+url: https://example.com
 baseurl: ""
-url: ""
 
-# Exclude certain files and directories
+# Theme configuration
+remote_theme: pmarsceill/just-the-docs
+jekyll_env: production
+
+# Pagination configuration
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Exclude certain files and directories from the site build
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -17,3 +23,48 @@ exclude:
   - _site
   - .jekyll-cache
   - .sass-cache
+  - README.md
+  - LICENSE.txt
+
+# Set the default layout and author for posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "John Doe"
+
+# Configure plugins
+plugins:
+  - jekyll-paginate
+
+# Set markdown rendering options
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+# Set collections for organizing site content
+collections:
+  my_collection:
+    output: true
+    permalink: /my_collection/:title
+    filter: "my_collection:true"
+    sort_by: "title"
+
+# Set SEO options
+meta_generator: "Jekyll"
+meta_description: "This is a site built with Jekyll and Just the Docs theme"
+meta_author: "John Doe"
+meta_keywords: "jekyll, just the docs, documentation, web development"
+
+# Set social media options
+twitter_username: "johndoe"
+github_username: "johndoe"
+linkedin_username: "johndoe"
+
+# Set Google Analytics ID
+google_analytics: "UA-XXXXXXXXX-X"
