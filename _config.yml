@@ -3,6 +3,9 @@ theme: slate
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 5
 
 markdown: kramdown
 kramdown:
@@ -13,3 +16,20 @@ kramdown:
 
 sass:
   style: compressed
+
+title: Your Site Title
+description: Your site description
+url: https://your-site-url.com
+baseurl: /your-site-baseurl
+
+# Optional customizations for header and footer
+header_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+footer_links:
+  - title: Privacy Policy
+    url: /privacy
+  - title: Contact Us
+    url: /contact
