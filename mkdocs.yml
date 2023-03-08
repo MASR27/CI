@@ -1,0 +1,27 @@
+nav:
+- Home
+- Scope
+- Normative References
+- Terms and Definitions
+- Measurement Requirements:
+  - Measurement Procedures
+  - Measurement Records
+- Measurement Management System:
+  - Measurement Management System Manual
+  - Measurement Management System Audit Checklist
+pages:
+- Home: index.md
+- Scope: scope.md
+- Normative References: normative-references.md
+- Terms and Definitions: terms-and-definitions.md
+- Measurement Requirements: measurement-requirements.md
+- Measurement Procedures: measurement-procedures.md
+- Measurement Records: measurement-records.md
+- Measurement Management System Manual: management-system-manual.md
+- Measurement Management System Audit Checklist: audit-checklist.md
+plugins:
+- search
+site_description: Documentation for an ISO 10012:2003 measurement management system
+site_name: ISO 10012:2003 Measurement Management System
+theme:
+  name: material
