@@ -1,4 +1,11 @@
-# ISO 10012:2003 Measurement Management System for Gas Stations
+title: ISO 10012:2003 Measurement Management System for Gas Stations
+nav:
+    - Home: 'index.md'
+    - About: 'about.md'
+    - Contact: 'contact.md'
+---
+
+#ISO 10012:2003 Measurement Management System for Gas Stations
 
 Welcome to the ISO 10012:2003 Measurement Management System for Gas Stations documentation site. This site provides information on how to implement a measurement management system for gas stations that complies with the requirements of ISO 10012:2003.
 
