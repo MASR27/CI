@@ -1,12 +1,15 @@
-# Site settings
-title: Your Site Title
-description: Your site description
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+theme: slate
 
-# Theme settings
-theme: jekyll-theme-adminlte
-
-# Plugins
 plugins:
-  - jekyll-admin
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: compressed
