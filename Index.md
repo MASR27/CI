@@ -4,7 +4,7 @@ Welcome to the documentation for an ISO 10012:2003 measurement management system
 
 ## Contents
 
-- [Scope](Scope.md)
+- [Scope](scope.md)
 - [Normative References](normative-references.md)
 - [Terms and Definitions](terms-and-definitions.md)
 - [Measurement Requirements](measurement-requirements.md)
