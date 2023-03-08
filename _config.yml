@@ -1,0 +1,13 @@
+description: A site built with Just the Docs theme
+exclude:
+- vendor
+kramdown:
+  hard_wrap: 'false'
+  input: GFM
+markdown: kramdown
+permalink: pretty
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+theme: just-the-docs
+title: My Site
