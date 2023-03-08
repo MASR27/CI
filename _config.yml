@@ -1,14 +1,19 @@
-
-description: A site built with Just the Docs theme
-exclude:
-- vendor
-kramdown:
-  hard_wrap: 'false'
-  input: GFM
-markdown: kramdown
-permalink: pretty
-plugins:
-- jekyll-feed
-- jekyll-seo-tag
-theme: just-the-docs
 title: My Site
+description: A site built with Just the Docs theme
+
+# Set the theme to Just the Docs
+remote_theme: pmarsceill/just-the-docs
+
+# Configure the site settings
+baseurl: ""
+url: ""
+
+# Exclude certain files and directories
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - _site
+  - .jekyll-cache
+  - .sass-cache
