@@ -1,18 +1,24 @@
-# ISO 10012:2003 Measurement Management System
+# ISO 10012:2003 Measurement Management System for Gas Stations
 
-Welcome to the documentation for an ISO 10012:2003 measurement management system. This system is designed to help you manage your gas station's measurement and monitoring processes to ensure compliance with ISO 10012:2003 standards.
+Welcome to the ISO 10012:2003 Measurement Management System for Gas Stations documentation site. This site provides information on how to implement a measurement management system for gas stations that complies with the requirements of ISO 10012:2003.
 
-## Contents
+## Table of Contents
 
-- [Scope](Scope.md)
+- [Introduction](introduction.md)
+- [Scope](scope.md)
 - [Normative References](normative-references.md)
 - [Terms and Definitions](terms-and-definitions.md)
-- [Measurement Requirements](measurement-requirements.md)
-- [Measurement Procedures](measurement-procedures.md)
-- [Measurement Records](measurement-records.md)
-- [Measurement Management System Manual](management-system-manual.md)
-- [Measurement Management System Audit Checklist](audit-checklist.md)
+- [Measurement Management System Requirements](measurement-management-system-requirements.md)
+- [Measurement Traceability](measurement-traceability.md)
+- [Measurement Equipment Control](measurement-equipment-control.md)
+- [Measurement Data Management](measurement-data-management.md)
+- [Internal Audit](internal-audit.md)
+- [Management Review](management-review.md)
 
-## About
+## Getting Started
 
-This documentation was created using MkDocs with the Material theme, and is hosted on Firebase Hosting.
+To get started, please review the introduction to learn more about ISO 10012:2003 and its requirements. From there, you can explore the other sections to learn more about the specific requirements for a measurement management system for gas stations.
+
+## Additional Resources
+
+For additional resources and guidance on implementing a measurement management system, please see the [ISO website](https://www.iso.org/standard/40850.html).
