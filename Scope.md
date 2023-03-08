@@ -1,69 +1,18 @@
----
-layout: default
----
+Scope
+The purpose of this document is to define the scope of the measurement management system (MMS) for gas stations in accordance with ISO 10012:2003. The MMS aims to ensure that measurements related to fuel storage, dispensing, and other related activities at gas stations are accurate, reliable, and consistent with applicable regulations and standards.
 
-<main>
-  <section id="compliance-checklist">
-    <h2>Compliance Checklist</h2>
-    <p>Use the following checklist to ensure that your gas station meets the necessary ISO 10012:2003 compliance requirements:</p>
-    <ul>
-      <li>Measurement equipment is identified and meets calibration requirements</li>
-      <li>Measurement equipment is calibrated at appropriate intervals</li>
-      <li>Measurement results are traceable to national standards</li>
-      <li>Measurement equipment is handled and stored appropriately</li>
-      <li>Measurement equipment is maintained and repaired as necessary</li>
-      <li>Measurement equipment is used only by authorized personnel</li>
-    </ul>
-  </section>
+The MMS will cover all aspects of measurement management, including:
 
-  <section id="compliance-details">
-    <h2>Compliance Details</h2>
-    <p>Provide the following details to ensure that your gas station meets the necessary ISO 10012:2003 compliance requirements:</p>
-    <form action="#" method="POST">
-      <fieldset>
-        <legend>Identification of measurement equipment</legend>
-        <label for="equipment-name">Equipment name:</label>
-        <input type="text" id="equipment-name" name="equipment-name">
-        <label for="equipment-id">Equipment ID:</label>
-        <input type="text" id="equipment-id" name="equipment-id">
-      </fieldset>
+Calibration of measurement equipment such as fuel dispensers, tanks, and other measurement devices.
+Verification of measurement accuracy through periodic testing and inspection.
+Maintenance of measurement equipment to ensure proper functioning and accuracy.
+Training of personnel on proper measurement procedures and techniques.
+Documentation and record keeping of measurement data and related activities.
+Continuous improvement of the measurement management system through monitoring, analysis, and corrective actions.
+The MMS will be implemented at all gas stations under the jurisdiction of the regulatory body responsible for overseeing measurement standards in the respective region.
 
-      <fieldset>
-        <legend>Calibration of measurement equipment</legend>
-        <label for="calibration-frequency">Calibration frequency:</label>
-        <input type="number" id="calibration-frequency" name="calibration-frequency">
-        <label for="last-calibration-date">Last calibration date:</label>
-        <input type="date" id="last-calibration-date" name="last-calibration-date">
-      </fieldset>
+The scope of this document includes the development and implementation of the MMS, as well as ongoing management, review, and improvement of the system. It does not cover the procurement, installation, or maintenance of specific measurement equipment or software, which will be the responsibility of the gas station operators.
 
-      <fieldset>
-        <legend>Traceability of measurement results</legend>
-        <label for="traceability-method">Traceability method:</label>
-        <input type="text" id="traceability-method" name="traceability-method">
-        <label for="national-standards">National standards used:</label>
-        <input type="text" id="national-standards" name="national-standards">
-      </fieldset>
+The MMS will be subject to regular audits and reviews to ensure compliance with ISO 10012:2003 and other relevant standards and regulations.
 
-      <fieldset>
-        <legend>Handling and storage of measurement equipment</legend>
-        <label for="handling-procedures">Handling procedures:</label>
-        <input type="text" id="handling-procedures" name="handling-procedures">
-        <label for="storage-procedures">Storage procedures:</label>
-        <input type="text" id="storage-procedures" name="storage-procedures">
-      </fieldset>
-
-      <fieldset>
-        <legend>Maintenance and repair of measurement equipment</legend>
-        <label for="maintenance-procedures">Maintenance procedures:</label>
-        <input type="text" id="maintenance-procedures" name="maintenance-procedures">
-        <label for="repair-procedures">Repair procedures:</label>
-        <input type="text" id="repair-procedures" name="repair-procedures">
-      </fieldset>
-
-      <fieldset>
-        <legend>Use of measurement equipment</legend>
-        <label for="authorized-personnel">Authorized personnel:</label>
-        <input type="text" id="authorized-personnel" name="authorized-personnel">
-      </fieldset>
-
-      <button type="submit" class="btn btn-primary">
+The objective of the MMS is to provide accurate and reliable measurements that meet the needs of all stakeholders, including customers, gas station operators, regulatory bodies, and other interested parties. The MMS will contribute to the overall safety, quality, and efficiency of fuel management at gas stations, and will help to minimize the risks associated with inaccurate or unreliable measurements.
